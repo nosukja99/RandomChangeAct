@@ -9,7 +9,7 @@ public class RandomGenerator{
 
         for (int i = 1; i <= 10; ++i)
         {
-            int randomInt = 5 + rnd.nextInt(91);
+            int randomInt = 5 + rnd.nextInt(90);
             System.out.println("Generated number: " + randomInt);
         }
 
